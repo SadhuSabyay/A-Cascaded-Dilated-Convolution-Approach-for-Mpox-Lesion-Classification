@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1,monkey_pox Accuracy,other Accuracy,EPOCH,dropout,neurons1,neurons2,neurons3,neurons4,n_layers,batch_size_train,batch_size_val,batch_size_test,learning_rate,weight_decay,patience,min_delta,scheduler_gamma
+efficientvit_l1.r224_in1k,"0,9875","0,9866856307534270","0,9880740124410630","0,9873397689507830","0,9790209790209790","0,9943502824858760",30,0.111975,1024,2048,512,512,2,16,16,8,6.14447274E-05,0.01,7,0,0.95

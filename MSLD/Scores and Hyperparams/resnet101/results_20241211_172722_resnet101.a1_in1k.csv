@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1,monkey_pox Accuracy,other Accuracy,EPOCH,dropout,neurons1,neurons2,neurons3,neurons4,n_layers,batch_size_train,batch_size_val,batch_size_test,learning_rate,weight_decay,patience,min_delta,scheduler_gamma
+resnet101.a1_in1k,0.959375,0.959246967721544,0.9586489898989898,0.9589383186425956,0.958041958041958,0.96045197740113,30,0.111975,1024,2048,512,512,2,16,16,8,5.77447274e-05,0.01,8,0,0.95

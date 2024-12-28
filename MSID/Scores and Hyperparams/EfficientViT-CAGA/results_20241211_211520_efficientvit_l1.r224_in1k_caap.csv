@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1,Chickenpox Accuracy,Measles Accuracy,Monkeypox Accuracy,Normal Accuracy,EPOCH,dropout,neurons1,neurons2,neurons3,neurons4,n_layers,batch_size_train,dilation,batch_size_test,learning_rate,weight_decay,min_delta,scheduler_gamma
+efficientvit_l1.r224_in1k_caap,0.9545454545454546,0.9523389157923057,0.9375556838805478,0.9446163515930959,0.9523809523809523,0.9444444444444444,0.9464285714285714,0.9661016949152542,23,0.111975,2048,512,512,512,1,8,"(1, 2, 3)",8,6.10447274e-05,0.01,0,0.95

@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1,Chickenpox Accuracy,Measles Accuracy,Monkeypox Accuracy,Normal Accuracy,EPOCH,dropout,neurons1,neurons2,neurons3,neurons4,n_layers,batch_size_train,batch_size_test,learning_rate,weight_decay,min_delta,scheduler_gamma
+vit_base_patch16_224,0.9285714285714286,0.9097222222222222,0.9154063614081996,0.9113560123398918,0.8571428571428571,0.8888888888888888,0.8928571428571429,1.0,20,0.111975,1024,1024,512,512,1,8,8,6.13447274e-05,0.01,0,0.95

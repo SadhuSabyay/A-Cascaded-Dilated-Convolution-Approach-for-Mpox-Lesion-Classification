@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1,monkey_pox Accuracy,other Accuracy,EPOCH,dropout,neurons1,neurons2,neurons3,neurons4,n_layers,batch_size_train,batch_size_val,batch_size_test,learning_rate,weight_decay,patience,min_delta,scheduler_gamma
+mobilenetv3_large_100.ra_in1k,0.978125,0.9782110544822409,0.9775883838383839,0.9778898638844745,0.9790209790209791,0.9774011299435028,30,0.111975,2048,2048,512,512,1,16,16,8,5.57447274e-05,0.01,8,0,0.95

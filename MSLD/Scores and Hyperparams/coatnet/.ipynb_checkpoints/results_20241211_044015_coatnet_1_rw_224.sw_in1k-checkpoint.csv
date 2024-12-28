@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1,monkey_pox Accuracy,other Accuracy,EPOCH,dropout,neurons1,neurons2,neurons3,neurons4,n_layers,batch_size_train,batch_size_val,batch_size_test,learning_rate,weight_decay,patience,min_delta,scheduler_gamma
+coatnet_1_rw_224.sw_in1k,0.990625,0.9901821342499308,0.9908608957113467,0.9905114899925871,0.986013986013986,0.9943502824858758,55,0.111975,1024,512,512,512,2,16,16,8,6.13447274e-05,0.01,5,0,0.95

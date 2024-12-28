@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1,monkey_pox Accuracy,other Accuracy,EPOCH,dropout,neurons1,neurons2,neurons3,neurons4,n_layers,batch_size_train,batch_size_val,batch_size_test,learning_rate,weight_decay,patience,min_delta,scheduler_gamma
+deit3_medium_patch16_224,0.99375,0.9936786377464344,0.9936786377464344,0.9936786377464344,0.993006993006993,0.9943502824858758,55,0.111975,1024,512,512,512,2,16,16,8,6.13447274e-05,0.01,5,0,0.95
