@@ -17,6 +17,27 @@ This repository works with three datasets:
 All datasets and the trained model (for Grad-CAM visualization) are available in this shared Google Drive:
 [[Drive Link Placeholder](https://drive.google.com/drive/folders/1KqQTi6mrUHuA3Oaf8G-PdpX90yNXXcgY?usp=sharing)]
 
+#### **MSLD (Monkeypox Skin Lesion Dataset)**
+- `MSLD.zip`: Original MSLD dataset.
+- `GradCAM_CAGA_msld_0.996875_modelweights`: Contains model weights trained on the MSLD dataset.
+- Preprocessing performed in `MSLD_Implementation.ipynb`.
+
+#### **MSID (Monkeypox Skin Image Dataset)**
+- `Monkeypox Skin Image Dataset-2.zip`: Contains the complete original MSID dataset.
+- Preprocessing performed in `MSID_Implementation.ipynb`.
+
+#### **MCSI (Mpox Close Skin Image) Dataset**
+- `X_train_final_multi_10_folds_40_each_equal.npy`: Training features.
+  - Preprocessed from the original MCSI dataset.
+  - Generated using `mpox_MCSI_pre-process.ipynb`.
+  - Initially formatted with balanced data (40 samples per class) and organized for 10-fold cross-validation.
+  - Later reshaped into 400 images and split into train/validation/test sets using SKlearn's KFold.
+
+
+- `y_train_final_multi_10_folds_40_each_equal.npy`: Corresponding training labels.
+
+---
+
 ## Project Structure
 ```
 .
